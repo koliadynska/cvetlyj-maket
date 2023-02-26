@@ -1,0 +1,959 @@
+
+* {
+    padding: 0;
+    margin : 0;
+}
+.container {
+    font-family: 'OpenSans-Regular', sans-serif;;
+}
+
+.bg-top-navigation  {
+    font-size: 14px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+  }
+
+.bg-top-navigation .left-icons {
+    font-family   : 'OpenSans-Regular', sans-serif;
+    font-size: 14px;
+}
+
+.bg-top-navigation .row .icons{
+    text-align: end; 
+}
+.bg-top-navigation .row .icons .fa{
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 6px 9px;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center; 
+}
+
+.header-content {
+    position: relative;
+    background-image: url(/img/header-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 610px;
+    max-width: 1366px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    
+}
+.header-content .row{
+    padding: 0px;
+    background-image: url(/img/header-opacity.png);
+    background-repeat: no-repeat;
+    height: 69px;
+    margin: 0px;
+    text-align: center;
+    
+}
+.navigation-container{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+   }
+
+.header-content .row .col-xs-12{
+    margin: auto;
+}
+.header-content .row h3{
+    color: #fff ;
+    font-family   : 'OpenSans-Bold', sans-serif;
+    font-size: 24px;
+   
+}
+.header-content .row span{
+    font-family   : 'OpenSans-Regular', sans-serif;
+    padding-left: 8px;
+}
+.header-content .row .general-navigation {
+    display: flex;
+    padding-left: 80px;
+}
+
+.header-content .row .general-navigation li {
+    list-style-type: none;
+    text-decoration: none;
+
+    
+}
+.header-content .row .general-navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-family   : 'OpenSans-Regular', sans-serif;
+    font-size: 14px;
+    padding-right: 14px;
+    padding-left: 14px;
+    transition: 1s linear;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 3px;
+   
+  
+    }
+    .header-content .row .general-navigation a:hover{
+        color: #fff;
+        text-decoration: underline;
+        background: #a0b1e9;
+      
+    }
+
+   .header-content .block-music {
+    font-family   : 'Popppins-ExtraBold', sans-serif; 
+    font-size: 50px;
+    color: #fff;
+   padding-top: 180px;
+}
+.header-content .market-bottom{
+    display: flex;
+    margin-top: 35px;
+}
+.header-content .market-bottom a{
+    text-decoration: none;
+}
+.header-content .market-bottom .play-marker{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    padding: 9px 32px 9px 23px;
+    width: 100%;
+    max-width: 133px;
+}
+.header-content .market-bottom .play-marker h4{
+    color: #fff;
+    font-family   : 'Popppins-Regular', sans-serif; 
+    font-size: 12px;
+    padding-left: 24px;
+    line-height: 17px;
+}
+.header-content .market-bottom .play-marker span{
+    color: #fff;
+    font-family   : 'Popppins-SemiBold', sans-serif; 
+    font-size: 12px; 
+}
+.header-content .market-bottom .app-store{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    padding: 9px 32px 9px 23px;
+    margin-left: 10px;
+    width: 100%;
+    max-width: 133px;
+}
+.header-content .market-bottom .app-store h4{
+    color: #fff;
+    font-family   : 'Popppins-Regular', sans-serif; 
+    font-size: 12px;
+    padding-left: 24px;
+    line-height: 17px;
+}
+.header-content .market-bottom .app-store span{
+    color: #fff;
+    font-family   : 'Popppins-SemiBold', sans-serif; 
+    font-size: 12px; 
+}
+.features h4{
+    color: #000;
+    font-family   : 'Oswald-Bold', sans-serif; 
+    font-size: 30px; 
+    text-align: center;
+    margin-top: 23px;
+}
+.features{
+    max-width: 961px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 596px;
+}
+
+.features .row-features{
+   
+    text-align: center;
+    
+}
+
+.features .row-features .iphone{
+margin-top: 59px;
+}
+
+/*START style for features block - div - computer*/
+
+.features .row-features .computer{
+    display: flex;
+}
+.features .row-features .computer img{
+   max-width: 69px;
+   width: 100%;
+   height: 69px;
+}
+.features .row-features .computer .computer-text{
+    margin-left: 34px;
+}
+.features .row-features .computer .computer-text h4{
+    font-family   : 'Roboto-Regular', sans-serif; 
+    font-size: 18px;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.features .row-features .computer .computer-text span{
+border-bottom: 1px solid #000;
+padding-bottom: 8px;
+}
+.features .row-features .computer .computer-text p{
+    font-family   : 'Roboto-Regular', sans-serif; 
+    font-size: 14px;
+    text-align: left;
+    color: #6c8784;
+    margin-bottom: 57px;
+}
+/*END style for features block - div - computer*/
+
+/*START style for features block - div - setting*/
+
+
+.features .row-features .setting .setting-text{
+    margin-left: 34px;
+}
+.features .row-features .setting .setting-text span{
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+    }
+.features .row-features .setting img{
+   max-width: 69px;
+   width: 100%;
+   height: 69px;
+}
+.features .row-features .setting{
+    display: flex;
+}
+.features .row-features .setting .setting-text h4{
+    font-family   : 'Roboto-Regular', sans-serif; 
+    font-size: 18px;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.features .row-features .setting .setting-text p{
+    font-family   : 'Roboto-Regular', sans-serif; 
+    font-size: 14px;
+    text-align: left;
+    color: #6c8784;
+    margin-bottom: 57px;
+}
+/*END style for features block - div - setting*/
+
+/*START style for features block - div - brush*/
+
+
+.features .row-features .brush .brush-text{
+    margin-right: 34px;
+}
+.features .row-features .brush .brush-text span{
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+}
+.features .row-features .brush img{
+   max-width: 69px;
+   width: 100%;
+   height: 69px;
+}
+.features .row-features .brush{
+    display: flex;
+}
+.features .row-features .brush .brush-text h4{
+    font-family   : 'Roboto-Regular', sans-serif; 
+    font-size: 18px;
+    text-align: right;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.features .row-features .brush .brush-text p{
+    font-family   : 'Roboto-Regular', sans-serif; 
+    font-size: 14px;
+    text-align: right;
+    color: #6c8784;
+    margin-bottom: 57px;
+}
+/*END style for features block - div - brush*/
+
+/*START style for features block - div - button-cub*/
+
+
+.features .row-features .button-cub .button-text{
+    margin-right: 34px;
+}
+.features .row-features .button-cub .button-text span{
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+   
+ }
+.features .row-features .button-cub img{
+   max-width: 69px;
+   width: 100%;
+   height: 69px;
+}
+.features .row-features .button-cub{
+    display: flex;
+}
+.features .row-features .button-cub .button-text h4{
+    font-family   : 'Roboto-Regular', sans-serif; 
+    font-size: 18px;
+    text-align: right;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.features .row-features .button-cub .button-text p{
+    font-family   : 'Roboto-Regular', sans-serif; 
+    font-size: 14px;
+    text-align: right;
+    color: #6c8784;
+    margin-bottom: 57px;
+}
+/*END style for features block - div - brush*/
+
+/*START music-meditation*/
+.music-meditation{
+    background-image: url(/img/iPhone-background.png);
+    background-repeat: no-repeat;
+    height: 595px;
+}
+.music-meditation .music-future {
+    font-family   : 'Lato-Regular', sans-serif; 
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    padding-top: 202px;
+    margin-left: 510px;
+}
+.music-meditation .music-future h4{
+    font-weight: lighter;
+}
+.music-meditation .music-future p{
+     font-size: 30px; 
+     padding-top: 30px; 
+     font-weight: lighter;
+}
+.music-meditation .music-future span{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 33px;
+}
+.music-meditation .music-future h6{
+    font-family   : 'Lato-Regular', sans-serif; 
+    font-size: 14px;
+    margin-top: 33px;
+    line-height: 16px;
+    font-weight: lighter;
+}
+.music-meditation .music-future h6 > span{
+    font-family   : 'Lato-Black', sans-serif; 
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: none;
+}
+/*END music-meditation*/
+
+/*START screen-shoots*/
+.screen .screen-shots{
+    background-image: url(/img/best-music.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 527px;
+    margin-top: 62px;
+    margin-bottom: 101px;
+   
+}
+.screen h4{
+    font-family   : 'Oswald-Bold', sans-serif; 
+    font-size: 30px;
+    color: #161e26;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 55px;
+}
+/*END screen-shots*/
+
+/*START video*/
+.video-item.active{
+    background-color: #374f6e;
+}
+
+.video-header{
+    background-image: url(/img/video-background.png);
+    background-repeat: no-repeat;
+    height: 728px;
+   }
+   .video-header h4{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 54px;
+    font-family   : 'Oswald-Bold', sans-serif; 
+    font-size: 30px;
+
+   }
+   .video{
+    
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .video .row-video{
+    display: flex;
+    text-align: center;
+   }
+   .video .row-video .left-block {
+    height: 512px;
+    max-width:  701px;
+    width: 100%;
+    position: relative;
+   }
+   .video .row-video  .movie-left-block {
+    background-color: #004058;
+    opacity: 0.85;
+    height: 94px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    text-align: left;
+    font-family   : 'Roboto-Regular', sans-serif; 
+    color: #fff;
+    padding-left: 42px;
+    }
+
+   .video .row-video  .movie-left-block h6{
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 24px;
+   
+   }
+   .video .row-video  .movie-left-block span{
+    font-size: 18px;
+    font-weight: lighter;
+    border-bottom: 1px solid #fff;
+   }
+   .video .row-video  .movie-left-block p{
+    font-size: 14px;
+    font-weight: lighter;
+    padding-top: 15px;
+    padding-bottom: 17px;
+   }
+ 
+   .video.row-video  .movie-left-block  img{
+    max-width: 72px;
+    width: 100%;
+    height: 51px;
+    
+   }
+   .video .row-video .left-block  #youtube video{
+        width: 100%;
+   }
+   
+   .video .row-video .right-movie{
+    background-image: url(/img/background-right.png);
+    height: 512px;
+    max-width:  444px;
+    width: 100%;
+   position: relative;
+   
+   }
+   .video .row-video .right-movie .block-movie{
+    position: absolute;
+   }
+   .video .row-video .right-movie .block-movie .col{
+    display: flex;
+   
+   }
+   .video .row-video .right-movie .block-movie a{
+    text-decoration: none;
+   }
+   .video .row-video .right-movie .block-movie .col .img-movie{
+    padding-top: 10px;
+    padding-left: 10px;
+   }
+   .video .row-video .right-movie .block-movie .col .text-movie{
+    font-family   : 'Roboto-Regular', sans-serif; 
+    color: #fff;
+    text-align: left;
+    padding-left: 25px;
+   }
+
+   .video.row-video .right-movie .block-movie .col .text-movie h6{
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 20px;
+    }
+    .video .row-video .right-movie .block-movie .col .text-movie span{
+       border-bottom: 1px solid #fff;
+    }
+    .video .row-video .right-movie .block-movie .col .text-movie p{
+        padding-top: 20px;
+        font-size: 14px;
+        font-weight: lighter;
+     }
+/*END video*/
+
+/*START first-ever-app*/
+.first-app h6{
+    font-family   : 'Oswald-Bold', sans-serif; 
+    font-size: 30px;
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 56px;
+}
+
+.first-app .row-first-app{
+    text-align: center;
+}
+.first-app .row-first-app img{
+    padding-bottom: 30px;
+}
+.first-app .row-first-app span {
+    font-family   : 'Roboto-Regular', sans-serif; 
+    font-weight: lighter;
+    font-size: 18px;
+    padding-bottom: 0px;
+   
+}
+
+.first-app hr{
+    max-width:  70px;
+    width: 100%;
+    margin-left: 150px;
+   
+}
+.first-app .row-first-app p {
+    font-family   : 'Roboto-Regular', sans-serif; 
+    color: #6c8784;
+    font-weight: lighter;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 56px;   
+}
+/*END first-ever-app*/
+
+/*START statistic*/
+.statistic{
+    background-image: url(/img/statistic.png);
+    background-repeat: no-repeat;
+    height: 201px;
+    max-width: 1325px;
+    width: 100%;
+}
+
+.statistic .row-statistic{
+    color: #fff;
+   text-align: center;
+}
+.statistic .row-statistic .col h4{
+    font-family   : 'Lato-Regular', sans-serif;
+    font-size: 72px;
+    font-weight: lighter;
+    margin-top: 43px;
+    padding-bottom: 23px;
+ }
+ .statistic .row-statistic .col span{
+     padding-bottom: 36px;
+ }
+/*END statistic*/
+
+/*START TESTIMONIALS*/
+.testimonials{
+    background-color: #eeeeee;
+    height: 526px;
+}
+.testimonials .slideshow {
+    text-align: center;
+    font-family   : 'Oswald-Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 48px;
+  }
+.testimonials .slideshow img{
+margin-top: 57px;
+}
+.testimonials .slideshow .dot-point .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .testimonials .slideshow .dot-point .dot:hover {
+    background-color: #717171;
+  }
+
+/*END TESTIMONIALS*/
+
+
+
+/*START WHO WE ARE*/
+.personal{
+    text-align: center;
+}
+.personal .personal-text h5{
+    text-align: center;
+    font-family   : 'Oswald-Bold', sans-serif;
+    font-size: 30px;
+    padding-top: 56px;
+    padding-bottom: 62px;
+
+}
+.personal  h6{
+    font-family   : 'Poppins-Regular', sans-serif;
+    font-size: 18px;   
+}
+.personal hr{
+    max-width: 70px;
+    width: 100%;
+    margin-left: 145px;
+    border-color: #000;
+}
+.personal  p{
+    font-family   : 'Poppins-Regular', sans-serif;
+    font-size: 14px;   
+    color: #6c8784;
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+.personal i{
+    font-size: 14px;
+    border: 1px solid #000;
+    padding: 4px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin-bottom: 60px;
+}
+/*END personal*/
+
+/*START our partners*/
+.parthers{
+background-color:  #eeeeee;
+height: 243px;
+}
+.parthers h5{
+    font-family   : 'Oswald-Bold', sans-serif;
+    font-size: 30px;  
+    text-align: center; 
+    padding-top: 55px;
+}
+.parthers .partners-img{
+    text-align: center;
+    margin-top: 71px;
+    margin-bottom: 67px;
+}
+
+/*START pricing*/
+.pricing{
+    text-align: center;
+    height: 750px;
+   
+}
+
+.pricing h5{
+    font-family   : 'Oswald-Bold', sans-serif;
+    font-size: 30px;  
+    text-align: center; 
+    padding-top: 50px;
+    padding-bottom: 62px;
+}
+/*START FREE*/
+.pricing .free {
+background-image: url(/img/month-free.png);
+background-repeat: no-repeat;
+height: 188px;
+max-width: 299px;
+width: 100%;
+margin-top: 69px;
+
+}
+.pricing .free h6{
+    font-family   : 'OpenSans-Regular', sans-serif;
+    font-size: 18px; 
+    font-weight: lighter;
+    color: #fff;
+   padding-top: 26px;
+}
+.pricing .free sup{
+    font-family   : 'Oswald-Light', sans-serif;
+    font-size: 24px; 
+    font-weight: lighter;
+    color: #fff;
+  }
+.pricing .free span{
+    font-family   : 'OpenSans-Bold', sans-serif;
+    font-size: 60px; 
+    font-weight: lighter;
+    color: #fff;
+}
+.pricing .free p{
+    font-family   : 'OpenSans-Light', sans-serif;
+    font-size: 18px; 
+    font-weight: lighter;
+    color: #fff;
+
+}
+.pricing .free .free-text{
+    padding-top: 77px;
+    margin-top: -29px;
+    border: 1px solid #174f9c;
+    border-top: none;
+}
+.pricing .free .free-text hr{
+    border: 1px solid #174f9c;
+    
+}
+.pricing .free .free-text p{
+    font-family   : 'OpenSans-Regular', sans-serif;
+    font-size: 14px; 
+    font-weight: lighter;
+    color: #000;
+    padding-bottom: 13px;
+    padding-top: 23px;
+
+}
+.pricing .free .free-text .button-free {
+    background-color: #26679e;
+    color: #fff;
+    font-family   : 'OpenSans-Regular', sans-serif;
+    font-size: 18px; 
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 24px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+/*END FREE*/
+
+/*START PREMIUM*/
+.pricing .premium {
+    background-image: url(/img/premium.png);
+    background-repeat: no-repeat;
+    height: 263px;
+    max-width: 299px;
+    width: 100%;
+    
+}
+.pricing .premium h6{
+        font-family   : 'OpenSans-Regular', sans-serif;
+        font-size: 18px; 
+        font-weight: lighter;
+        color: #fff;
+        padding-top: 26px;
+    }
+    .pricing .premium sup{
+        font-family   : 'Oswald-Light', sans-serif;
+        font-size: 24px; 
+        font-weight: lighter;
+        color: #fff;
+      }
+    .pricing .premium span{
+        font-family   : 'OpenSans-Bold', sans-serif;
+        font-size: 60px; 
+        font-weight: lighter;
+        color: #fff;
+    }
+    .pricing .premium p{
+        font-family   : 'OpenSans-Light', sans-serif;
+        font-size: 18px; 
+        font-weight: lighter;
+        color: #fff;
+    
+    }
+    .pricing .premium .premium-text{
+        padding-top: 110px;
+        margin-top: 8px;
+        border: 1px solid #174f9c;
+        border-top: none;
+    }
+    .pricing .premium .premium-text hr{
+        border: 1px solid #174f9c;
+        
+    }
+    .pricing .premium .premium-text p{
+        font-family   : 'OpenSans-Regular', sans-serif;
+        font-size: 14px; 
+        font-weight: lighter;
+        color: #000;
+        padding-bottom: 13px;
+        padding-top: 23px;
+    
+    }
+    .pricing .premium .premium-text .button-premium {
+        background-color: #26679e;
+        color: #fff;
+        font-family   : 'OpenSans-Regular', sans-serif;
+        font-size: 18px; 
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        padding: 14px 24px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    
+    }
+
+
+/*END PREMIUM*/
+
+/*START GOLD*/
+.pricing .gold {
+    background-image: url(/img/month-free.png);
+    background-repeat: no-repeat;
+    height: 188px;
+    max-width: 299px;
+    width: 100%;
+    margin-top: 69px;
+    }
+    .pricing .gold h6{
+        font-family   : 'OpenSans-Regular', sans-serif;
+        font-size: 18px; 
+        font-weight: lighter;
+        color: #fff;
+       padding-top: 26px;
+    }
+    .pricing .gold sup{
+        font-family   : 'Oswald-Light', sans-serif;
+        font-size: 24px; 
+        font-weight: lighter;
+        color: #fff;
+      }
+    .pricing .gold span{
+        font-family   : 'OpenSans-Bold', sans-serif;
+        font-size: 60px; 
+        font-weight: lighter;
+        color: #fff;
+    }
+    .pricing .gold p{
+        font-family   : 'OpenSans-Light', sans-serif;
+        font-size: 18px; 
+        font-weight: lighter;
+        color: #fff;
+    
+    }
+    .pricing .gold .gold-text{
+        padding-top: 77px;
+        margin-top: -29px;
+        border: 1px solid #174f9c;
+        border-top: none;
+    }
+    .pricing .gold .gold-text hr{
+        border: 1px solid #174f9c;
+        
+    }
+    .pricing .gold .gold-text p{
+        font-family   : 'OpenSans-Regular', sans-serif;
+        font-size: 14px; 
+        font-weight: lighter;
+        color: #000;
+        padding-bottom: 13px;
+        padding-top: 23px;
+    
+    }
+    .pricing .gold .gold-text .button-gold {
+        background-color: #26679e;
+        color: #fff;
+        font-family   : 'OpenSans-Regular', sans-serif;
+        font-size: 18px; 
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        padding: 14px 24px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    
+    }
+
+/*END GOLD*/
+/*END pricing*/
+
+
+/*START footer*/
+footer .bg-footer{
+    background-image: url(/img/fotter-bg.png);
+    background-repeat: no-repeat;
+    height: 258px;
+}
+
+footer .footer-text{
+    text-align: left;
+    color: #fff;
+    padding-top: 56px;
+    padding-left: 28px;
+}
+footer .footer-text h5{
+    font-family   : 'OpenSans-Semibold', sans-serif;
+    font-size: 14px; 
+}
+footer .footer-text hr{
+    max-width: 24px;
+    width: 100%;
+    margin-bottom: 28px;
+
+}
+footer .footer-text p{
+    font-family   : 'OpenSans-Regular', sans-serif;
+    font-size: 14px; 
+    padding-bottom: 18px;
+}
+
+footer .footer-text i{
+    border: 1px solid #fff;
+    padding: 5px 7px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+footer .footer-text span hr{
+    max-width: 200px;
+    width: 100%;
+    
+}
+
+footer .footer-text span{
+    font-size: 14px;
+}
+footer .footer-text h6{
+    font-family   : 'OpenSans-Semibold', sans-serif;
+    font-size: 14px; 
+    text-align: right;
+    margin-right: 35px;
+}
+footer .footer-text .footer-icon i{
+   font-size: 14px;
+    border: none;
+       
+}
+footer .lower-footer{
+    background-image: url(/img/lower-footer.png);
+    background-repeat: no-repeat;
+    height: 60px;
+}
+footer .lower-footer h6{
+    font-family   : 'OpenSans-Regular', sans-serif;
+    font-size: 14px; 
+    font-weight: lighter;
+    color: #fff;
+    text-align: left;
+    padding-top: 23px;
+    padding-left: 123px;
+}
+
+
+
+
+
+
+
+
+
+/*END footer*/
