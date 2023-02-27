@@ -654,8 +654,9 @@ height: 243px;
 /*START pricing*/
 .pricing{
     text-align: center;
-    height: 750px;
-   
+    margin-bottom: 62px;
+   /* height: 750px;*/
+  
 }
 
 .pricing h5{
@@ -663,7 +664,7 @@ height: 243px;
     font-size: 30px;  
     text-align: center; 
     padding-top: 50px;
-    padding-bottom: 62px;
+   
 }
 /*START FREE*/
 .pricing .free {
@@ -671,7 +672,7 @@ background-image: url(/img/month-free.png);
 background-repeat: no-repeat;
 max-width: 299px;
 width: 100%;
-margin-top: 69px;
+margin-top: 130px;
 
 }
 .pricing .free h6{
@@ -702,9 +703,9 @@ margin-top: 69px;
 }
 .pricing .free .free-text{
     padding-top: 77px;
-    margin-top: -29px;
     border: 1px solid #174f9c;
     border-top: none;
+    margin-top: -30px;
 }
 .pricing .free .free-text hr{
     border: 1px solid #174f9c;
@@ -728,152 +729,27 @@ margin-top: 69px;
     border: none;
     border-radius: 10px;
     padding: 14px 24px;
-    margin-top: 20px;
     margin-bottom: 40px;
 
 }
 /*END FREE*/
 
-/*START PREMIUM*/
-.pricing .premium {
+/*START FREE FREE-PREMIUM*/
+.pricing .free-premium {
     background-image: url(/img/premium.png);
     background-repeat: no-repeat;
-    height: 263px;
     max-width: 299px;
     width: 100%;
-    
+    margin-top: 58px;
+  
 }
-.pricing .premium h6{
-        font-family   : 'OpenSans-Regular', sans-serif;
-        font-size: 18px; 
-        font-weight: lighter;
-        color: #fff;
-        padding-top: 26px;
-    }
-    .pricing .premium sup{
-        font-family   : 'Oswald-Light', sans-serif;
-        font-size: 24px; 
-        font-weight: lighter;
-        color: #fff;
-      }
-    .pricing .premium span{
-        font-family   : 'OpenSans-Bold', sans-serif;
-        font-size: 60px; 
-        font-weight: lighter;
-        color: #fff;
-    }
-    .pricing .premium p{
-        font-family   : 'OpenSans-Light', sans-serif;
-        font-size: 18px; 
-        font-weight: lighter;
-        color: #fff;
-    
-    }
-    .pricing .premium .premium-text{
-        padding-top: 110px;
-        margin-top: 8px;
-        border: 1px solid #174f9c;
-        border-top: none;
-    }
-    .pricing .premium .premium-text hr{
-        border: 1px solid #174f9c;
-        
-    }
-    .pricing .premium .premium-text p{
-        font-family   : 'OpenSans-Regular', sans-serif;
-        font-size: 14px; 
-        font-weight: lighter;
-        color: #000;
-        padding-bottom: 13px;
-        padding-top: 23px;
-    
-    }
-    .pricing .premium .premium-text .button-premium {
-        background-color: #26679e;
-        color: #fff;
-        font-family   : 'OpenSans-Regular', sans-serif;
-        font-size: 18px; 
-        text-align: center;
-        border: none;
-        border-radius: 10px;
-        padding: 14px 24px;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    
-    }
 
+.pricing .free-premium .free-text{
+    margin-top: 8px;
+    padding-top: 111px;
+}
+    /*END  FREE FREE-PREMIUM*/
 
-/*END PREMIUM*/
-
-/*START GOLD*/
-.pricing .gold {
-    background-image: url(/img/month-free.png);
-    background-repeat: no-repeat;
-    height: 188px;
-    max-width: 299px;
-    width: 100%;
-    margin-top: 69px;
-    }
-    .pricing .gold h6{
-        font-family   : 'OpenSans-Regular', sans-serif;
-        font-size: 18px; 
-        font-weight: lighter;
-        color: #fff;
-       padding-top: 26px;
-    }
-    .pricing .gold sup{
-        font-family   : 'Oswald-Light', sans-serif;
-        font-size: 24px; 
-        font-weight: lighter;
-        color: #fff;
-      }
-    .pricing .gold span{
-        font-family   : 'OpenSans-Bold', sans-serif;
-        font-size: 60px; 
-        font-weight: lighter;
-        color: #fff;
-    }
-    .pricing .gold p{
-        font-family   : 'OpenSans-Light', sans-serif;
-        font-size: 18px; 
-        font-weight: lighter;
-        color: #fff;
-    
-    }
-    .pricing .gold .gold-text{
-        padding-top: 77px;
-        margin-top: -29px;
-        border: 1px solid #174f9c;
-        border-top: none;
-    }
-    .pricing .gold .gold-text hr{
-        border: 1px solid #174f9c;
-        
-    }
-    .pricing .gold .gold-text p{
-        font-family   : 'OpenSans-Regular', sans-serif;
-        font-size: 14px; 
-        font-weight: lighter;
-        color: #000;
-        padding-bottom: 13px;
-        padding-top: 23px;
-    
-    }
-    .pricing .gold .gold-text .button-gold {
-        background-color: #26679e;
-        color: #fff;
-        font-family   : 'OpenSans-Regular', sans-serif;
-        font-size: 18px; 
-        text-align: center;
-        border: none;
-        border-radius: 10px;
-        padding: 14px 24px;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    
-    }
-
-/*END GOLD*/
 /*END pricing*/
 
 
