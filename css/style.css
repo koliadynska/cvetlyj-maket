@@ -756,8 +756,7 @@ margin-top: 130px;
 /*START footer*/
 footer .bg-footer{
     background-image: url(/img/fotter-bg.png);
-    background-repeat: no-repeat;
-    height: 258px;
+    background-repeat: no-repeat;  
 }
 
 footer .footer-text{
@@ -765,6 +764,7 @@ footer .footer-text{
     color: #fff;
     padding-top: 56px;
     padding-left: 28px;
+    margin-bottom: 20px;
 }
 footer .footer-text h5{
     font-family   : 'OpenSans-Semibold', sans-serif;
@@ -812,7 +812,7 @@ footer .footer-text .footer-icon i{
 footer .lower-footer{
     background-image: url(/img/lower-footer.png);
     background-repeat: no-repeat;
-    height: 60px;
+   
 }
 footer .lower-footer h6{
     font-family   : 'OpenSans-Regular', sans-serif;
@@ -821,7 +821,8 @@ footer .lower-footer h6{
     color: #fff;
     text-align: left;
     padding-top: 23px;
-    padding-left: 123px;
+    padding-left: 23px;
+    padding-bottom: 23px;
 }
 
 
