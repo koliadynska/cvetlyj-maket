@@ -483,7 +483,7 @@ padding-bottom: 8px;
 .statistic{
     background-image: url(/img/statistic.png);
     background-repeat: no-repeat;
-    height: 201px;
+   
     max-width: 1325px;
     width: 100%;
 }
@@ -492,15 +492,15 @@ padding-bottom: 8px;
     color: #fff;
    text-align: center;
 }
-.statistic .row-statistic .col h4{
+.statistic .row-statistic  h4{
     font-family   : 'Lato-Regular', sans-serif;
     font-size: 72px;
     font-weight: lighter;
-    margin-top: 43px;
     padding-bottom: 23px;
+    padding-top: 58px;
  }
- .statistic .row-statistic .col span{
-     padding-bottom: 36px;
+ .statistic .row-statistic  span{
+     padding-bottom: 47px;
  }
 /*END statistic*/
 
@@ -613,10 +613,14 @@ height: 243px;
 background-image: url(/img/month-free.png);
 background-repeat: no-repeat;
 max-width: 299px;
-width: 100%;
 margin-top: 130px;
-
+margin: 0 auto;
 }
+
+.pricing .free-margin-top{
+    margin-top: 150px;
+}
+
 .pricing .free h6{
     font-family   : 'OpenSans-Regular', sans-serif;
     font-size: 18px; 
@@ -674,6 +678,7 @@ margin-top: 130px;
     margin-bottom: 40px;
 
 }
+
 /*END FREE*/
 
 /*START FREE FREE-PREMIUM*/
@@ -688,7 +693,7 @@ margin-top: 130px;
 
 .pricing .free-premium .free-text{
     margin-top: 8px;
-    padding-top: 111px;
+    padding-top: 133px;
 }
     /*END  FREE FREE-PREMIUM*/
 
