@@ -34,19 +34,20 @@
     background-image: url(/img/header-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 610px;
-    max-width: 1366px;
+     max-width: 1366px;
     width: 100%;
     display: block;
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto; 
+    padding-bottom: 200px;  
     
 }
 .header-content .row{
     padding: 0px;
     background-image: url(/img/header-opacity.png);
     background-repeat: no-repeat;
-    height: 69px;
+    padding-bottom: 23px;
+    padding-top: 20px;
     margin: 0px;
     text-align: center;
     
@@ -169,44 +170,47 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 596px;
+    padding-bottom: 58px;
 }
 
 .features .row-features{
-   
     text-align: center;
-    
 }
 
 .features .row-features .iphone{
 margin-top: 59px;
 }
 
-/*START style for features block - div - computer*/
+/*START style for features block - div - computer-setting*/
 
-.features .row-features .computer{
+.features  .computer-setting{
     display: flex;
 }
-.features .row-features .computer img{
+.features .row-features .margin-top{
+    margin-top: 150px;
+}
+.features  .computer-setting img{
    max-width: 69px;
    width: 100%;
    height: 69px;
 }
-.features .row-features .computer .computer-text{
+.features .computer-setting .computer-text{
     margin-left: 34px;
+   
 }
-.features .row-features .computer .computer-text h4{
+.features .computer-setting .computer-text h4{
     font-family   : 'Roboto-Regular', sans-serif; 
     font-size: 18px;
     text-align: left;
     margin: 0px;
     margin-bottom: 25px;
+  
 }
-.features .row-features .computer .computer-text span{
+.features .computer-setting .computer-text span{
 border-bottom: 1px solid #000;
 padding-bottom: 8px;
 }
-.features .row-features .computer .computer-text p{
+.features .computer-setting .computer-text p{
     font-family   : 'Roboto-Regular', sans-serif; 
     font-size: 14px;
     text-align: left;
@@ -215,66 +219,34 @@ padding-bottom: 8px;
 }
 /*END style for features block - div - computer*/
 
-/*START style for features block - div - setting*/
 
 
-.features .row-features .setting .setting-text{
-    margin-left: 34px;
-}
-.features .row-features .setting .setting-text span{
-    border-bottom: 1px solid #000;
-    padding-bottom: 8px;
-    }
-.features .row-features .setting img{
-   max-width: 69px;
-   width: 100%;
-   height: 69px;
-}
-.features .row-features .setting{
-    display: flex;
-}
-.features .row-features .setting .setting-text h4{
-    font-family   : 'Roboto-Regular', sans-serif; 
-    font-size: 18px;
-    text-align: left;
-    margin: 0px;
-    margin-bottom: 25px;
-}
-.features .row-features .setting .setting-text p{
-    font-family   : 'Roboto-Regular', sans-serif; 
-    font-size: 14px;
-    text-align: left;
-    color: #6c8784;
-    margin-bottom: 57px;
-}
-/*END style for features block - div - setting*/
-
-/*START style for features block - div - brush*/
+/*START style for features block - div - brush-cub*/
 
 
-.features .row-features .brush .brush-text{
+.features .brush-cub .brush-text{
     margin-right: 34px;
 }
-.features .row-features .brush .brush-text span{
+.features .brush-cub .brush-text span{
     border-bottom: 1px solid #000;
     padding-bottom: 8px;
 }
-.features .row-features .brush img{
+.features .brush-cub img{
    max-width: 69px;
    width: 100%;
    height: 69px;
 }
-.features .row-features .brush{
+.features  .brush-cub{
     display: flex;
 }
-.features .row-features .brush .brush-text h4{
+.features .brush-cub .brush-text h4{
     font-family   : 'Roboto-Regular', sans-serif; 
     font-size: 18px;
     text-align: right;
     margin: 0px;
     margin-bottom: 25px;
 }
-.features .row-features .brush .brush-text p{
+.features  .brush-cub .brush-text p{
     font-family   : 'Roboto-Regular', sans-serif; 
     font-size: 14px;
     text-align: right;
@@ -283,40 +255,8 @@ padding-bottom: 8px;
 }
 /*END style for features block - div - brush*/
 
-/*START style for features block - div - button-cub*/
 
 
-.features .row-features .button-cub .button-text{
-    margin-right: 34px;
-}
-.features .row-features .button-cub .button-text span{
-    border-bottom: 1px solid #000;
-    padding-bottom: 8px;
-   
- }
-.features .row-features .button-cub img{
-   max-width: 69px;
-   width: 100%;
-   height: 69px;
-}
-.features .row-features .button-cub{
-    display: flex;
-}
-.features .row-features .button-cub .button-text h4{
-    font-family   : 'Roboto-Regular', sans-serif; 
-    font-size: 18px;
-    text-align: right;
-    margin: 0px;
-    margin-bottom: 25px;
-}
-.features .row-features .button-cub .button-text p{
-    font-family   : 'Roboto-Regular', sans-serif; 
-    font-size: 14px;
-    text-align: right;
-    color: #6c8784;
-    margin-bottom: 57px;
-}
-/*END style for features block - div - brush*/
 
 /*START music-meditation*/
 .music-meditation{
