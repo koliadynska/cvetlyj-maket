@@ -483,9 +483,9 @@ padding-bottom: 8px;
 .statistic{
     background-image: url(/img/statistic.png);
     background-repeat: no-repeat;
-   
     max-width: 1325px;
     width: 100%;
+    padding-bottom: 21px;
 }
 
 .statistic .row-statistic{
@@ -499,9 +499,7 @@ padding-bottom: 8px;
     padding-bottom: 23px;
     padding-top: 58px;
  }
- .statistic .row-statistic  span{
-     padding-bottom: 47px;
- }
+
 /*END statistic*/
 
 /*START TESTIMONIALS*/
@@ -693,7 +691,7 @@ margin: 0 auto;
 
 .pricing .free-premium .free-text{
     margin-top: 8px;
-    padding-top: 133px;
+    padding-top: 131px;
 }
     /*END  FREE FREE-PREMIUM*/
 
