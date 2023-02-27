@@ -322,7 +322,7 @@ padding-bottom: 8px;
 .music-meditation{
     background-image: url(/img/iPhone-background.png);
     background-repeat: no-repeat;
-    height: 595px;
+    
 }
 .music-meditation .music-future {
     font-family   : 'Lato-Regular', sans-serif; 
@@ -331,6 +331,7 @@ padding-bottom: 8px;
     color: #fff;
     padding-top: 202px;
     margin-left: 510px;
+    
 }
 .music-meditation .music-future h4{
     font-weight: lighter;
