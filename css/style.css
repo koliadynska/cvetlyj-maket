@@ -419,24 +419,29 @@ padding-bottom: 8px;
     color: #fff;
     text-align: left;
     padding-left: 25px;
+   
    }
+
    .video .row-video .right-movie .video-item.active{
     background-color: #293d51;
    }
-  
-
-   .video.row-video .right-movie .block-movie .col .text-movie h6{
+     
+   .video .row-video .right-movie .block-movie .col .text-movie h6{
+    padding-top: 21px;
+    font-family   : 'Roboto-Regular', sans-serif; 
     font-size: 18px;
     font-weight: lighter;
-    padding-top: 20px;
-    }
-    .video .row-video .right-movie .block-movie .col .text-movie span{
+    padding-top: 21px;
+   }
+
+    .video .row-video .right-movie .block-movie .text-movie span{
        border-bottom: 1px solid #fff;
     }
-    .video .row-video .right-movie .block-movie .col .text-movie p{
-        padding-top: 20px;
+    .video .row-video .right-movie .block-movie  .text-movie p{
+        padding-top: 21px;
         font-size: 14px;
         font-weight: lighter;
+       
      }
 /*END video*/
 
@@ -482,9 +487,7 @@ padding-bottom: 8px;
 /*START statistic*/
 .statistic{
     background-image: url(/img/statistic.png);
-    background-repeat: no-repeat;
-    max-width: 1325px;
-    width: 100%;
+    
     padding-bottom: 21px;
 }
 
@@ -505,7 +508,7 @@ padding-bottom: 8px;
 /*START TESTIMONIALS*/
 .testimonials{
     background-color: #eeeeee;
-    height: 526px;
+    
 }
 .testimonials .slideshow {
     text-align: center;
@@ -575,20 +578,24 @@ margin-top: 57px;
 /*END personal*/
 
 /*START our partners*/
-.parthers{
+.partners{
 background-color:  #eeeeee;
-height: 243px;
+
 }
-.parthers h5{
+.partners h5{
     font-family   : 'Oswald-Bold', sans-serif;
     font-size: 30px;  
     text-align: center; 
     padding-top: 55px;
+    padding-bottom: 70px;
 }
-.parthers .partners-img{
+.partners .row-partners{
     text-align: center;
-    margin-top: 71px;
-    margin-bottom: 67px;
+}
+.partners .our-partners{
+    margin: 0 auto;
+    padding-bottom: 66px;
+  
 }
 
 /*START pricing*/
